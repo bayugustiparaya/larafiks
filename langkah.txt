@@ -1,0 +1,25 @@
+composer global require laravel/installer
+laravel new MODUL5NABILA
+cd MODUL5NABILA
+https://www.itsolutionstuff.com/post/laravel-8-install-bootstrap-example-tutorialexample.html
+composer require laravel/ui
+php artisan ui bootstrap
+npm install
+npm run dev
+
+buat database wad_modul5
+edit file .env 
+
+php artisan make:model Product --migration
+php artisan make:model Order --migration
+
+edit file migration /database/migrations/ ...
+buat folder /resources/views/layouts
+buat file /resources/views/layouts/app.blade.php
+buat file /resources/views/index.blade.php
+
+php artisan serve 
+-> untuk menjalankan project
+edit /routes/web.php
+
+php artisan storage:link
